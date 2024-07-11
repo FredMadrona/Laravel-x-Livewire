@@ -49,6 +49,13 @@ class TodoApp extends Component
         $this->content = $task->content;
     }
 
+    public function delete($id)
+    {
+        $task = Task::find($id);
+        $task->delete();
+        session()->flash('message', 'Task successfully deleted.');
+    }
+
     public function render()
     {
         // Fetch all tasks from the database

@@ -42,9 +42,12 @@
                             <h3 class="text-gray-900 font-bold">{{ $task->title }}</h3>
                             <p class="text-gray-700">{{ $task->content }}</p>
                         </div>
-                        <div>
+                        <div class="flex space-x-2">
                             <button wire:click="edit({{ $task->id }})" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">
                                 Edit
+                            </button>
+                            <button wire:click="delete({{ $task->id }})" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                                Delete
                             </button>
                         </div>
                     </li>
