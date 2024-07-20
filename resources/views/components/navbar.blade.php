@@ -1,13 +1,13 @@
 <div>
-    <div class="w-full bg-secondary h-15 grid grid-cols-12 justify-between p-5">
+    <div class="w-full secondary-bg h-15 grid grid-cols-12 justify-between p-5 z-100 ">
         <div class="flex-row flex col-span-2 justify-between ">
-            <x-zondicon-menu class="w-6 h-6 text-white " />
+            <x-zondicon-menu class="w-4 h-4 mt-0.5 text-white " />
             <div class="flex-row flex cursor-pointer">
-                <x-zondicon-dashboard class="w-6 h-6 text-white " />
+                <x-zondicon-dashboard class="w-4 h-4 mt-0.5 text-white " />
                 <p class="text-white text-center pl-3 font-semibold hover:underline"> Dashboard </p>
             </div>
             <div class="flex-row flex opacity-80 cursor-pointer ">
-                <x-zondicon-folder class="w-6 h-6 text-white " />
+                <x-zondicon-folder class="w-4 h-4 mt-0.5 text-white " />
                 <p class="text-white text-center pl-3 hover:underline"> Collections </p>
             </div>
         </div>

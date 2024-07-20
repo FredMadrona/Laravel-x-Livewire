@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Do It App</title>
         @vite('resources/css/app.css')
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -13,10 +13,25 @@
 
         
     </head>
-    <body class="antialiased secondary-bg">
-    
-        @include("components.navbar")
-    
+    <body class="antialiased primary-bg h-full">
+        <div class="grid grid-rows-12">
+            {{-- div for navigation bar --}}
+            <div class="row-span-1">
+                @include("components.navbar")
+            </div>
 
+            {{-- div for sidebar and content --}}
+            <div class="row-span-11 grid grid-cols-12 h-full">
+                <div class="col-span-2  w-full">
+                    @include("components.sidebar")
+                </div>
+                <div class="col-span-10 ">
+                    @yield("content")
+              
+                </div>
+            </div>
+                        
+
+        </div>
     </body>
 

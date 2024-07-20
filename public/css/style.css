@@ -2,7 +2,10 @@
     --Primary: #181820;
     --Secondary: #21212B;
 }
-
+body{
+    margin: 0;
+    height: 100%;
+}
 .primary-bg{
     opacity: var(--sds-size-stroke-border);
     background: var(--Primary, #181820);
