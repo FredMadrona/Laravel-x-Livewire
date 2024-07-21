@@ -16,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
+
+
+Route::get('/collections', function () {
+    return view('pages.collections');
+})->name('collections');

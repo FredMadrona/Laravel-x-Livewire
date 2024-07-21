@@ -26,7 +26,7 @@
                     @include("components.sidebar")
                 </div>
                 <div class="col-span-10 ">
-                    @yield("content")
+              @yield("content")
               
                 </div>
             </div>
