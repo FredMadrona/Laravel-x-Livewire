@@ -5,8 +5,8 @@
           <div class="flex flex-row justify-between w-ful">
             <div class="flex-row flex cursor-pointer ml-10 mr-5">
                 <x-zondicon-dashboard class="w-4 h-4 mt-0.5 text-white " />
-                <a href="{{ route('welcome') }}">
-                    <p class="text-white text-center pl-2 hover:underline text-sm {{ request()->routeIs('welcome') ? 'font-semibold' : '' }}"> Dashboard </p>
+                <a href="{{ route('dashboard') }}">
+                    <p class="text-white text-center pl-2 hover:underline text-sm {{ request()->routeIs('dashboard') ? 'font-semibold' : '' }}"> Dashboard </p>
                 </a>
             </div>
             <div class="flex-row flex cursor-pointer ">
