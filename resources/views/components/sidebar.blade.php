@@ -1,4 +1,4 @@
-<div class="w-full secondary-bg h-full">
+<div class="w-full secondary-bg h-full ">
     <div class="flex flex-col justify-start items-center">
         {{-- sidebar title --}}
         <div class="w-full pt-10">

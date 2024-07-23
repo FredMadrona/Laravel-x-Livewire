@@ -1,5 +1,5 @@
 <div>
-    <div class="w-full secondary-bg h-15 grid grid-cols-12 justify-between p-5 z-100 ">
+    <div class="w-full secondary-bg h-15 grid grid-cols-12 justify-between p-5 z-100 shadow-lg">
         <div class="flex-row flex col-span-3 justify-start  w-full">
             <x-zondicon-menu class="w-4 h-4 mt-0.5 text-white cursor-pointer" />
           <div class="flex flex-row justify-between w-ful">
