@@ -15,10 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.dashboard');
-})->name('dashboard');
+    return view('pages.homepage');
+})->name('homepage');
 
 
 Route::get('/collections', function () {
     return view('pages.collections');
 })->name('collections');
+
+Route::get('/dashboard', function () {
+    return view('pages.dashboard');
+})->name('dashboard');
